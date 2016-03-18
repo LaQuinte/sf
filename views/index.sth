@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="static/css/world.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css">
+
+    <script src="static/vendors/jquery-2.2.1.min.js"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="map">
+            <div id="grid">
+                <svg>
+                    
+                </svg>
+            </div>
+        </div>
+        <div id="ui">
+            <h1>{{title}}</h1>
+            <div id="info-player" class="ui-element"></div>
+            <div id="radar" class="ui-element">
+                <div id="witness"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
